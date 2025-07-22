@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/artScope/',
+    base: '/art-scope-frontend/',
   plugins: [
     react(),
     tailwindcss()
