@@ -3,7 +3,7 @@
 **Identify the artist behind a famous painting using AI.**  
 ArtScope uses machine learning to recognize the painter of a given artwork based on visual analysis.
 
-**Live Demo:** [GitHub Pages Deployment](https://sengiria.github.io/art-scope/)  
+**Live Demo:** [GitHub Pages Deployment](https://sengiria.github.io/art-scope-frontend/)  
 **Backend Repo:** [ArtScope Backend on GitHub](https://github.com/Sengiria/art-scope-backend)  
 **Hosted API (Hugging Face):** [https://sengiria-art-scope.hf.space/ping](https://sengiria-art-scope.hf.space/ping)
 
