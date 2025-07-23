@@ -58,8 +58,7 @@ const AnimationIntro = ({ onStart }: { onStart: () => void }) => {
                     <motion.img
                         src={sampleImage}
                         alt="Sample painting used in the demo"
-                        className={`w-32 h-32 sm:w-64 border-2 border-rose-700 sm:h-64 object-cover rounded-xl shadow-xl transition-all duration-1000 ${phase === "blurred" ? "blur-md" : ""
-                            }`}
+                        className="w-32 h-32 sm:w-64 border-2 border-rose-700 sm:h-64 object-cover rounded-xl shadow-xl transition-all duration-1000"
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1 }}
@@ -86,7 +85,7 @@ const AnimationIntro = ({ onStart }: { onStart: () => void }) => {
                     <motion.img
                         src={samplePainter}
                         alt="Vincent van Gogh, the predicted painter"
-                        className="w-32 h-32 sm:w-64 sm:h-64 border-2 border-rose-700 rounded-full object-cover shadow-lg transition-all duration-1000"
+                        className={`w-32 h-32 sm:w-64 sm:h-64 border-2 border-rose-700 rounded-full object-cover shadow-lg transition-all duration-1000 ${phase === "blurred" ? "blur-md" : ""}`}
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ delay: 2, duration: 0.8 }}
